@@ -4,18 +4,6 @@
 ### NAME: MANODEEPAN M
 ### REGISTER NUMBER : 212223060151
 ### Aim: To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
-# Prompt Engineering Techniques for Chatbots
-
-Prompt Engineering is the process of **crafting effective instructions** to guide an AI system toward producing accurate, helpful, and context-aware responses.
-
-A **well-crafted prompt** can help a chatbot:
-
-* Provide relevant answers to user queries.
-* Maintain the desired tone (formal, friendly, empathetic).
-* Handle different types of customer issues efficiently.
-* Avoid misunderstandings by asking clarifying questions.
-
-Different **prompting methods** can be applied depending on the complexity of the query and the detail required.
 
 ---
 
