@@ -117,9 +117,9 @@ Expected AI Output
 
 Another Example
 
-“The capital city of Tamil Nadu is ______.”
+“The capital city of India is ______.”
 
-Output: “Chennai”
+Output: “New Delhi”
 
 Advantages
 Useful for education and quizzes
