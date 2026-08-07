@@ -162,9 +162,11 @@ Requires multiple prompts
 | Missing Word Prompting | Low | Education and quizzes | Moderate |
 | Preceding Question Prompting | High | Detailed analysis and planning | Very High |
 
-## RESULT: 
-The various types of Prompts are executed successfully with generated the report.
+## Conclusion
+Each prompting technique serves a distinct purpose depending on the desired outcome. Straightforward prompts are ideal for quick, direct answers; tabular prompting is best for structured comparisons; preceding-question prompting produces richer, context-aware explanations; and missing-word prompting is most effective for precise, targeted recall. Selecting the right prompting style for a given task materially improves the clarity, accuracy, and usefulness of generated AI output.
 
+## Result
+Thus, the prompts for Straightforward Prompts, Tabular Format Prompting, Preceding Question Prompting, and Missing Word Prompting were written and executed successfully, and the generated outputs were evaluated.
 
 
 
