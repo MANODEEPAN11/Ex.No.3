@@ -160,10 +160,6 @@ Hello [name], your order [order_id] is currently [status]. Expected delivery: [d
 
 ---
 
-**Expected Output:**
-
-* Chatbot: *"It looks like the app might have a bug. Please try clearing the cache or reinstalling the app. If the problem continues, let me know and I’ll help 
----
 ## Conclusion
 
 Implementing diverse prompt engineering techniques empowers chatbots to deliver accurate, context-aware, and user-friendly interactions. Straightforward prompts ensure fast, reliable responses for routine queries, while tabular format prompts provide consistency and structure across multiple scenarios. Missing word (cloze) prompts enable precise personalization, and preceding question prompts enhance clarity by addressing incomplete inputs. Each approach has unique advantages, and strategically combining them maximizes efficiency, accuracy, and customer satisfaction. Thoughtful prompt design not only improves response quality but also fosters trust, scalability, and adaptability, positioning chatbots as effective, reliable, and intelligent tools in modern customer service ecosystems.
