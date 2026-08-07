@@ -3,171 +3,171 @@
 ### DATE: 07.08.2026  
 ### NAME: MANODEEPAN M
 ### REGISTER NUMBER : 212223060151
-### Aim: To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
 
----
+## Aim: To write the prompts for these following prompt types and evaluate that using any one method 
 
-## Types of Prompt Engineering
+1. Straightforward Prompts
 
-### 1. Straightforward Prompts
+2. Tabular Format Prompting
 
-**Definition:**
-Direct and simple instructions given to the AI without extra context. Best for **deterministic, repetitive tasks** where the output format is fixed.
+3. Preceding Question Prompting
 
-**Key Features:**
+4. Missing Word Prompting
 
-* Clear and direct phrasing.
-* Minimal ambiguity.
-* Works well for factual or standard replies.
+## Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
 
-**Use Cases:**
+Procedure:
 
-* Order tracking responses.
-* Providing product availability.
-* Greeting/closing messages.
+1.	Straightforward Prompts:
+   
+    - •	"Define photosynthesis in one sentence."
 
-**Example:**
+  	 - 	"List three advantages of electric vehicles."
 
-```plaintext
-Prompt: "When a customer asks for order status, reply with:  
-'Your order is currently being processed and will be delivered by [date].'"
-```
+ 3.	Tabular Format Prompting:
 
-**Conversation:**
+   	 •	"Compare and contrast AC and DC current in a table."
 
-* Customer: *"What’s the status of order #1456?"*
-* Chatbot: *"Your order is currently being processed and will be delivered by September 15, 2025."*
+   	 •	"Provide a table listing five programming languages, their paradigms, and one use case each."
 
-**Advantages:** Fast and reliable for structured queries.
-**Limitations:** Lacks flexibility, may fail for vague queries.
+3. Preceding Question Prompting:
 
----
+    •	"Why is climate change a global concern? Explain how greenhouse gases contribute to global warming."
 
-### 2. Tabular Format Prompting
+   •	"How do vaccines work? Describe the process of immunization in simple terms."
 
-**Definition:**
-Organizes information into a **structured table** for consistent responses.
+5. Missing Word Prompting:
 
-**Key Features:**
+   •	"The capital of France is ____."
 
-* Easy mapping between **Issue → Solution → Tone**.
-* Ensures consistency.
-* Best when multiple query categories exist.
+   •	"In photosynthesis, plants absorb sunlight to produce ____."
 
-**Use Cases:**
 
-* Troubleshooting guides.
-* Policy summaries (refunds, returns, replacements).
-* Tone-based responses.
+## OUTPUT: 
+## Introduction
 
-**Example Prompt:**
+Prompt Engineering is the process of designing effective inputs (prompts) for Artificial Intelligence systems to generate accurate, meaningful, and relevant outputs. Different prompting techniques help improve the quality of responses depending on the task, context, and expected outcome. This report explains four major prompting techniques with suitable scenario-based examples.
 
-| Issue Type           | Steps                         | Tone       |
-| -------------------- | ----------------------------- | ---------- |
-| Order Tracking       | Provide ETA + tracking number | Reassuring |
-| Product Troubleshoot | Suggest fixes, then escalate  | Helpful    |
-| Refund/Return        | Explain policy + return steps | Empathetic |
+## 1. Straightforward Prompts
+Definition
 
-**Conversation:**
+Straightforward prompting is the simplest prompting method where instructions are given directly and clearly without additional structure or context.
 
-* Customer: *"My package hasn’t arrived yet."*
-* Chatbot: *"I understand your concern. Your order is still in transit and is expected to arrive by September 14, 2025. Tracking number: TR123456."*
+Scenario
 
-**Advantages:** Easy scalability & consistency.
-**Limitations:** May feel robotic if overused.
+A college student wants an AI tool to generate a short report on renewable energy.
 
+Prompt Example
 
+“Write a 200-word report on the importance of renewable energy.”
 
----
+AI Output Summary
 
-### 3. Preceding Question Prompting
+The AI generates a concise report explaining renewable energy sources such as solar, wind, and hydro power, including their environmental and economic benefits.
 
-**Definition:**
-The AI **first asks clarifying questions** when the query lacks details.
+Advantages
+Simple and easy to create
+Saves time
+Suitable for general tasks
+Limitations
+Output may lack depth
+Less control over formatting and detail
+## 2. Tabular Format Prompting
+Definition
 
-**Key Features:**
+Tabular prompting structures information in rows and columns to obtain organized and comparative outputs.
 
-* Adds a confirmation step.
-* Improves accuracy & trust.
-* Reduces wrong replies.
+Scenario
 
-**Use Cases:**
+A business analyst wants to compare different AI tools used in education.
 
-* Refund requests without order ID.
-* Troubleshooting without device details.
-* Subscription/account issues.
+Prompt Example
 
-**Example:**
+“Create a table comparing ChatGPT, Gemini, and Claude based on features, advantages, and limitations.”
 
-```plaintext
-Prompt: "If customer’s query is missing details (like order ID), ask a clarifying question first."
-```
+## Example Output
+| AI Tool | Features | Advantages | Limitations |
+| --- | --- | --- | --- |
+| ChatGPT | Text generation | Easy interaction | May produce outdated info |
+| Gemini | Multimodal AI | Integrates with Google tools | Limited free access |
+| Claude | Long-context processing | Better document analysis | Smaller ecosystem |
 
-**Conversation:**
+Advantages
+Produces organized information
+Easy to compare data
+Improves readability
+Limitations
+Not suitable for creative writing
+Complex prompts may confuse structure
+## 3. Missing Word Prompting
+Definition
 
-* Customer: *"I need a refund."*
-* Chatbot: *"I can help with that! Could you please share your order number so I can check the refund details?"*
+Missing word prompting provides incomplete sentences where the AI predicts or fills the missing information based on context.
 
-**Advantages:** Prevents errors, builds trust.
-**Limitations:** Adds extra steps (slightly longer conversation).
+Scenario
 
----
+A language teacher wants students to learn grammar and vocabulary using AI assistance.
 
-### 4. Missing Word Prompting (Cloze Prompting)
+Prompt Example
 
-**Definition:**
-AI fills in **blanks in a template**, ensuring structured responses.
+“Artificial Intelligence is transforming the ______ sector by improving diagnosis and patient care.”
 
-**Key Features:**
+Expected AI Output
 
-* Template-driven replies.
-* Guarantees inclusion of required fields (name, ID, date).
-* Reduces formatting errors.
+“healthcare”
 
-**Use Cases:**
+Another Example
 
-* Personalized responses.
-* Order updates with placeholders.
-* FAQs with uniform style.
+“The capital city of Tamil Nadu is ______.”
 
-**Example Prompt:**
+Output: “Chennai”
 
-```plaintext
-"Fill in the blanks in this template:  
-Hello [name], your order [order_id] is currently [status]. Expected delivery: [date]."
-```
+Advantages
+Useful for education and quizzes
+Improves learning interaction
+Enhances contextual understanding
+Limitations
+Works only with contextual clues
+May produce multiple valid answers
+## 4. Preceding Question Prompting
+Definition
 
-**Conversation:**
+Preceding question prompting involves asking related preliminary questions before the main prompt to guide the AI toward a more accurate response.
 
-* Customer: *"Hi, I’m Arjun. My order 5678 hasn’t been delivered yet."*
-* Chatbot: *"Hello Arjun, your order 5678 is currently delayed in transit. Expected delivery: September 16, 2025."*
+Scenario
 
-**Advantages:** Highly structured & accurate.
-**Limitations:** Rigid, may not handle free-flow conversations well.
+A company wants an AI-generated marketing strategy for a new smartphone product.
 
+Prompt Example
 
----
+Question 1: “Who is the target audience for smartphones?”
+Question 2: “What are the current smartphone market trends?”
+Main Prompt: “Create a marketing strategy for a new mid-range smartphone.”
 
-## Conclusion
+AI Output Summary
 
-Implementing diverse prompt engineering techniques empowers chatbots to deliver accurate, context-aware, and user-friendly interactions. Straightforward prompts ensure fast, reliable responses for routine queries, while tabular format prompts provide consistency and structure across multiple scenarios. Missing word (cloze) prompts enable precise personalization, and preceding question prompts enhance clarity by addressing incomplete inputs. Each approach has unique advantages, and strategically combining them maximizes efficiency, accuracy, and customer satisfaction. Thoughtful prompt design not only improves response quality but also fosters trust, scalability, and adaptability, positioning chatbots as effective, reliable, and intelligent tools in modern customer service ecosystems.
+The AI first understands the audience and market trends, then generates a detailed marketing strategy including social media advertising, influencer marketing, and pricing strategies.
 
-Key Takeaways:
+Advantages
+Produces detailed and accurate outputs
+Helps AI understand context better
+Improves logical flow of responses
+Limitations
+Time-consuming
+Requires multiple prompts
+## Comparative Analysis of Prompting Techniques
+| Prompting Technique | Complexity | Best Use Case | Output Quality |
+| --- | --- | --- | --- |
+| Straightforward Prompting | Low | Simple tasks | Moderate |
+| Tabular Format Prompting | Medium | Comparisons and structured data | High |
+| Missing Word Prompting | Low | Education and quizzes | Moderate |
+| Preceding Question Prompting | High | Detailed analysis and planning | Very High |
 
-1.Enhances accuracy, consistency, and personalization in responses.
+## RESULT: 
+The various types of Prompts are executed successfully with generated the report.
 
-2.Builds user trust by clarifying incomplete or ambiguous queries.
 
-3.Supports scalability and adaptability in customer service operations.
 
-## Result
 
-By applying **Straightforward, Tabular, Missing Word and Preceding Question**, customer service chatbots can:
 
-1) Deliver accurate answers.
-2) Maintain a natural conversational flow.
-3) Improve customer trust and satisfaction.
 
-Each method has its **strengths and trade-offs**, and the right combination depends on the **type of query** and **business goals**.
-
----
