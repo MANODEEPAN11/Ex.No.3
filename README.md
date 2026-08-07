@@ -43,7 +43,6 @@ Procedure:
    •	"In photosynthesis, plants absorb sunlight to produce ____."
 
 
-## OUTPUT: 
 ## Introduction
 
 Prompt Engineering is the process of designing effective inputs (prompts) for Artificial Intelligence systems to generate accurate, meaningful, and relevant outputs. Different prompting techniques help improve the quality of responses depending on the task, context, and expected outcome. This report explains four major prompting techniques with suitable scenario-based examples.
